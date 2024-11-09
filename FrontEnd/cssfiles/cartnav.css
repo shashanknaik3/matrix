@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: whitesmoke;
+}
+.upperNav{
+    height: 7vh;
+    background-color: #2c3e50;
+    padding: 5px;
+}
+.upperNav .container{
+    width: 80vw;
+    margin: auto;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+   
+}
+.upperNav .container .searchbox{
+    width: 45%;
+    /* height: 100%; */
+    margin-left: 34px;
+    background-color: #fff;
+    padding: auto;
+    
+}
+.upperNav .container .searchbox input{
+    width: 92%;
+    height: 80%;
+    border: 0;
+    padding-left: 35px;
+    padding-bottom: 7px;
+    outline: none;
+}
+.upperNav .container .searchbox input::placeholder{
+    color: #474747;
+    
+}
+.upperNav .container .searchbox .search i{
+    color: #3E72E8;
+    font-size: 18px;
+}
+.login button{
+    margin-left: 20px;
+    padding: 7px 35px;
+    color: #3E72E8;
+    background-color: #fff;
+    border: none;
+    font-size: 15px;
+}
+.upperNav .container .rightContainer{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-left: 35px;
+}
+.upperNav .container .rightContainer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.upperNav .container .rightContainer i{
+    
+    font-size: 18px;
+}
+.lowerNav{
+    height: 10vh;
+}
+.lowerNav .container{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h3{
+    color: white;
+    
+}
+
+
+.lowerNav .container .cat a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.search {
+    outline: none;
+    border: none;
+}
+.rightContainer sup{
+   /* background: #fff; */
+   color: white;
+   border-radius: 10px;
+  
+   margin-left: 5px;
+   font-size: small;
+}

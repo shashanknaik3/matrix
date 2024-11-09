@@ -1,0 +1,62 @@
+.containers{
+    margin-top: 100px;
+    width: 100%;
+    
+
+}
+.wrapper{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
+.text{
+    flex-basis: 45%;
+}
+.all-images{
+    height: 80vh;
+    display: flex;
+}
+.small-images{
+    display: flex;
+    flex-direction: column;
+}
+.small-images img{
+    height: 12vh;
+    margin: 9px;
+    margin-right: 50px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.small-images img:hover{
+    opacity: 1;
+}
+main-image img{
+    height: 100%;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+button{
+    border: none;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.price{
+    margin-top: 10px;
+    font-size: large;
+    color: #555;
+    font-weight: bold;
+}
+.description{
+    font-size: large;
+    margin-top: 10px;
+}
+.login button{
+    margin-bottom: 7px;
+}
